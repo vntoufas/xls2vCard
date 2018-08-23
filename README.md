@@ -5,11 +5,13 @@ convert xsl file to vCards. One for each contact in your xsl file. Handy when mi
 Leveraging the Apache's librarys, this tool will help you export vCards from xls file rows.
 
 e.x. suppose you have a xls file like so:
+<pre>
 #######################################
 #First Name # Last Name # ph.Number   #
 #Jean       # Doeveen   # 12-345-567  #
 #John       # Doe       # 2345678901  #
 #######################################
+</pre>
 and you want to import the contacts to some cloud service that supports .vCard file format.
 Change the TOTALROWS, take care of the paths and you are ready to go!
 
